@@ -10,3 +10,25 @@
    width: 500px;
    margin-top: 30px;
 }
+.postLikesCountDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.postLikesCountDivBox{
+    height: 100px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.fontText{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}

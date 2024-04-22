@@ -26,6 +26,26 @@ function PostDetail() {
 
   return (
     <div className="postDetailContainer">
+      <div className="postLikesCountDiv">
+        <div className="postLikesCountDivBox">
+          <div className="fontText">Likes</div>
+          <div className="fontText">
+            {data?.reactions_total?.summary?.total_count}
+          </div>
+        </div>
+        <div className="postLikesCountDivBox">
+          <div className="fontText">Comments</div>
+          <div className="fontText">{data?.comments?.summary?.total_count}</div>
+        </div>
+        <div className="postLikesCountDivBox">
+          <div className="fontText">Reach</div>
+          <div className="fontText">548</div>
+        </div>
+        <div className="postLikesCountDivBox">
+          <div className="fontText">Share</div>
+          <div className="fontText">548</div>
+        </div>
+      </div>
       <div className="postDetailGraph">
         <div className="postDetailGraphRow">
           <Example data={data} />
