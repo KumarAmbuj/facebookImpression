@@ -16,7 +16,7 @@ function Home() {
     try {
       const response = await fetch(url);
       const responseJson = await response.json();
-      console.log(responseJson.data);
+      //console.log(responseJson.data);
       setData(responseJson.data);
       navigate("/post", { state: { data: responseJson.data } });
     } catch (error) {

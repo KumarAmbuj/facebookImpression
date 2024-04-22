@@ -1,0 +1,12 @@
+.postDetailGraph{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.postDetailGraphRow{
+    border: 2px solid black;
+    padding: 15px;
+   width: 500px;
+   margin-top: 30px;
+}

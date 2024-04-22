@@ -8,7 +8,7 @@ function Post() {
   const location = useLocation();
   const data = location.state.data;
 
-  console.log("dataaaaaaaaaaa", data);
+  //console.log("dataaaaaaaaaaa", data);
 
   return (
     <div className="postContainer">
