@@ -1,0 +1,16 @@
+.postContainer{
+    
+   
+    
+    background-color: rgb(26, 20, 80);
+   
+
+}
+
+.postContent{
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:55px;
+}
