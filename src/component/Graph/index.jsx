@@ -29,7 +29,7 @@ const chartConfig = {
     dataLabels: {
       enabled: false,
     },
-    colors: ["#020617"],
+    colors: ["rgb(42, 177, 187)"],
     plotOptions: {
       bar: {
         columnWidth: "40%",
@@ -57,7 +57,7 @@ const chartConfig = {
       labels: {
         style: {
           colors: "#616161",
-          fontSize: "16px",
+          fontSize: "18px",
           fontFamily: "inherit",
           fontWeight: 600,
         },

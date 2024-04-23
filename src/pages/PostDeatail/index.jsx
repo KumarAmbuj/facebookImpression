@@ -48,10 +48,10 @@ function PostDetail() {
       </div>
       <div className="postDetailGraph">
         <div className="postDetailGraphRow">
-          <Example data={data} />
+          {Object.keys(data).length > 0 && <Example data={data} />}
         </div>
         <div className="postDetailGraphRow">
-          <Example data={data} />
+          {Object.keys(data).length > 0 && <Example data={data} />}
         </div>
       </div>
     </div>
