@@ -1,9 +1,10 @@
 .homeContainer{
-    width: 90%;
-    margin:10px 0 auto;
+  
+    
     
     padding:30px;
     box-sizing: border-box;
+    background-image: url('./images/backgroundImage.jpg');
 }
 
 .homeRow{
@@ -53,10 +54,7 @@
     box-shadow: 3px 3px 3px grey;
   }
 
-  .homeContainer{
-    width: 90%;
-    margin:40px auto;
-}
+ 
 
 .homeRow{
     display: flex;

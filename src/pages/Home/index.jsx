@@ -54,7 +54,7 @@ function Home() {
           </div>
         </div>
       )}
-      <div style={{ backgroundColor: "rgb(2, 2, 53)" }}>
+      <div>
         <div className="homeContainer">
           <div className="homeRow">
             <div className="homeRowImage">

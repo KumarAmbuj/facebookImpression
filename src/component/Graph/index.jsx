@@ -114,8 +114,10 @@ export default function Example(props) {
           <Square3Stack3DIcon className="h-6 w-6" />
         </div>
         <div>
-          <Typography variant="h6" color="blue-gray">
-            Reactions Count
+          <Typography variant="h3" color="blue-gray">
+            <span style={{ fontSize: "20px", fontWeight: "600" }}>
+              Reactions Count
+            </span>
           </Typography>
           <Typography
             variant="small"

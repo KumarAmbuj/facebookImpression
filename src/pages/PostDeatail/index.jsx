@@ -39,11 +39,11 @@ function PostDetail() {
         </div>
         <div className="postLikesCountDivBox">
           <div className="fontText">Reach</div>
-          <div className="fontText">548</div>
+          <div className="fontText">{Math.floor(Math.random() * 100 + 50)}</div>
         </div>
         <div className="postLikesCountDivBox">
           <div className="fontText">Share</div>
-          <div className="fontText">548</div>
+          <div className="fontText">{Math.floor(Math.random() * 100 + 50)}</div>
         </div>
       </div>
       <div className="postDetailGraph">

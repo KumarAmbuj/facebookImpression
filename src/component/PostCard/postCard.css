@@ -3,33 +3,57 @@
     width: 250px;
    
     margin-top: 30px;
-    background-color: rgb(228, 221, 221);
+    background-color: rgb(247, 245, 245);
     border-radius: 10px;
     box-shadow: 7px 7px 5px grey;
     cursor: pointer;
     padding: 5px 15px;
+
 }
 .postCardContainer:hover{
-    transform: scale(1.06);
+    transform: scale(1.01);
     transition-delay: .1s;
     
 }
 .postCardImage{
     margin: 1px auto 0 auto;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
   
-    border-radius: 50%;
+   
 }
 .postCardImage img{
     height: 100%;
     width: 100%;
+    border-radius: 50%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 .button button{
     outline: none;
     border: none;
-    background-color: black;
-    color: white;
-    border-radius: 3px;
-    padding:1px 5px;
+    background-color: rgb(2,2,53);
+    color: rgb(182,180,180);
+    border-radius: 6px;
+    padding:3px 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.button button:hover{
+    background-color: white;
+    color:rgb(2,2,53);
+    font-weight: 700;
+}
+.messageText{
+    color:rgb(2,2,53);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    /* text-shadow: 2px 2px rgb(235, 186, 186); */
+    margin-top: 2px;
 }

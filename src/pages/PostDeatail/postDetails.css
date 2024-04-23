@@ -1,3 +1,11 @@
+.postDetailContainer{
+    
+    min-height: 100vh;
+    background-image: url('./images/backgroundImage.jpg');
+    
+}
+
+
 .postDetailGraph{
     display: flex;
     justify-content: center;
@@ -11,11 +19,12 @@
    margin-top: 30px;
    border-radius: 10px;
    box-shadow: 5px 5px 5px grey;
+   background-color: aliceblue;
 }
 .postLikesCountDiv{
     display: flex;
     justify-content: space-around;
-    margin-top: 30px;
+    padding: 30px;
     flex-wrap: wrap;
 }
 .postLikesCountDivBox{
@@ -28,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     gap:10px;
+    background-color: aliceblue;
 }
 .fontText{
     font-size: 20px;

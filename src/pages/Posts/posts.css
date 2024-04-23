@@ -2,7 +2,7 @@
     
    
     
-    background-color: rgb(26, 20, 80);
+    background-image: url('./images/backgroundImage.jpg');
    
 
 }
@@ -12,6 +12,6 @@
     width: 85%;
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    gap:40px;
     justify-content: center;
 }

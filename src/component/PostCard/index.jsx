@@ -7,17 +7,15 @@ function PostCard(props) {
     console.log(id);
     navigate(`/post-detail/${id}`);
   }
-  
+
   return (
     <div className="postCardContainer">
       <div className="postCardImage">
-        <img src="./images/images.jpg" />
+        <img src="./images/logo1.png" />
       </div>
+      <div className="messageText">{data.message?.slice(0, 40)}</div>
       <div style={{ fontSize: "15px", fontWeight: "500" }}>
-        {data.message?.slice(0, 40)}
-      </div>
-      <div style={{ fontSize: "15px", fontWeight: "500" }}>
-        Date: {data.created_time}
+        Date: {data.created_time?.slice(0, 10)}
       </div>
       <div className="button">
         <button
