@@ -9,7 +9,7 @@ function Home() {
   const [token, setToken] = useState("");
   const [profile, setProfile] = useState(null);
   const [data, setData] = useState([]);
-  const url = `https://graph.facebook.com/v19.0/3799971930326902/posts?access_token=EAAFrAe5yoZAEBOZC2ZAq8mWS2BZA9hMvTDjByUqqFoYY20xWgUc7Hu2y5aZBHiqc8DsWu3Tt3OVSvdbdkRRxHwCn6SRlOavuyNSl2igP7p6Vw7ny2Xt4pxKpyakNvWAJeLZBK2jpqlhtA9QGRkZBpGwWYTJDFGrOyxc2ivvm0TJhpXj81obF2ss0i31CsKnMBZAXAzKzdBEUYZAJP6nc2c9pFUxkGrF11JRZBgGfpZC4BJ5BpZCxPtgpIGFl`;
+  const url = `https://graph.facebook.com/v19.0/3799971930326902/posts?access_token=EAAFrAe5yoZAEBOzGBPpTmV8Bkw2VtdhP9K8KTAFQzlSxcV3dFE5HlXboqq7ZBcxPZBsIVIxvAgjiYzzYNJaCBgG07ZBtFZAJtDfJt8qFsbM005JTOOPZAdeFvufgSBsdeKMsoiG9gnjZC93ysgMoVDLXFD6UmXld9Ky4ZBInQ6pULHGnwNj5TZCAIxBpC`;
   const url2 =
     "https://graph.facebook.com/v19.0/3799971930326902_2313005489023561?fields=id,message,reactions.summary(total_count).as(reactions_total),reactions.type(LIKE).summary(total_count).as(like_reactions),reactions.type(LOVE).summary(total_count).as(love_reactions),reactions.type(WOW).summary(total_count).as(wow_reactions),reactions.type(HAHA).summary(total_count).as(haha_reactions),reactions.type(SAD).summary(total_count).as(sad_reactions),reactions.type(ANGRY).summary(total_count).as(angry_reactions),comments.summary(total_count),shares&access_token=EAAFrAe5yoZAEBOZBPJ2LOMiJfu3mDc0BmpFt95rHc5TFp1Ntv9LMobmN4czfE310iZBvlHss9qEc5fucH5k22jeE2IAhB5ao1pKshBSikCXZArPudZCp78RF25tsjOWRQC1y35uuUPOZA7sK4XrKq6S9AQL5VNzcJUE1EUvdCkSTVZBX3Q6UWjxoM8ZC";
   async function getData() {
